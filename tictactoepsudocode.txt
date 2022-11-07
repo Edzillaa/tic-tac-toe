@@ -1,0 +1,29 @@
+TIC-TAC-TOE PSUDO CODE
+
+1. Define required constants:
+	- load 9 squares into javascripts let blocks = document.querySelectorAll('.squares')
+
+2. Load the reset button into javascript (this is called caching). Ex: 
+let resetBtnEl = document.getElementById('reset-btn')
+
+
+
+3. Load a winning message div into javascipt. let messageEl = document.getElementById('win-message')
+
+4. Which player is currently playing? let player = 'x'
+
+5. Create event listner for the squares so you can click and it does something 
+	- attatch a callback function to each of the squares and the callback function would be a handleClick
+
+6. Define handleClick with a function declaration:
+	- ex function handleClick(evt) {
+
+}
+a. Place who is currently playing and then switch 
+b. Cant play if a square has already been played
+
+7. Define reset with a function declaration:
+ex: function reset() {
+	-reset the board 
+	-set player back to the original player (X)
+}
